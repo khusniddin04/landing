@@ -1,0 +1,26 @@
+.allServices {
+    position: relative;
+    background: linear-gradient(90deg, #504dc2 0%, #5f12d0 100%);
+    padding: 100px 0 302px;
+    margin-bottom: 200px;
+}
+.allServices__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.allServices__content h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 146%;
+    color: #fff;
+    width: 60%;
+}
+.allServices__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    position: absolute;
+    bottom: -100px;
+}

@@ -1,0 +1,48 @@
+.service {
+  padding: 110px 0 105px;
+}
+.service h2 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 146%;
+  text-align: center;
+  color: var(--dark);
+  width: 75%;
+  margin: 0 auto 50px;
+}
+.service__text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 158%;
+  text-align: center;
+  color: var(--grey);
+  width: 75%;
+  margin: 0 auto 70px;
+}
+.service__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 55px;
+}
+.service button {
+    margin: 0 auto;
+  border-radius: 30px;
+  width: 200px;
+  height: 45px;
+  box-shadow: 0 0 10px 0 rgba(111, 111, 111, 0.25);
+  background: var(--accent);
+  border: none;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+.service_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

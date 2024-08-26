@@ -1,0 +1,70 @@
+.header {
+  position: relative;
+}
+.home {
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+.header_text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff00;
+  padding: 40px 0;
+}
+.header .header__list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px;
+}
+
+.home .header__list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px;
+}
+.header .header__list li {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  padding: 40px 0;
+}
+.home .header__list li {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 40px 0;
+}
+.home hr {
+  width: 100%;
+  height: 1px;
+  background-color: #a1a1a1;
+  border: none;
+  opacity: 0.5;
+}
+.home .header__list a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+.header .header__list a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+.none {
+  display: none;
+}
+.header__list6 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}

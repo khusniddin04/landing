@@ -1,0 +1,39 @@
+.user__info h2 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 146%;
+  text-align: center;
+  color: var(--dark);
+  margin-top: 20px;
+}
+.user__info h4 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+  margin-top: 20px;
+}
+.user__info a {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: underline !important;
+}
+.hero__form {
+    margin-top: 50px;
+}
+.service__wrapper {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.service_card_update {
+    display: none;
+}
+.open {
+    display: block;
+}
